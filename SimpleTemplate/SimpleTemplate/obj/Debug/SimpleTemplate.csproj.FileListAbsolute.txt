@@ -1,0 +1,6 @@
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\bin\SimpleTemplate.dll.config
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\bin\SimpleTemplate.dll
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\bin\SimpleTemplate.pdb
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.csprojResolveAssemblyReference.cache
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.dll
+c:\users\salih\documents\visual studio 2013\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.pdb
