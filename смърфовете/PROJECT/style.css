@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Azedo-Light';
+    src: url('Azedo-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BoB';
+    src: url('BoB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Hallo sans light';
+    src: url('Hallo sans light.otf') format('opentype');
+}
+body {
+    font-family: 'Hallo sans light';
+	background-image: url(img/SmyrfUni.jpg);
+	background-repeat: no-repeat;
+	background-color: #b4c4f0;
+	}
+header{
+    height: 50px;
+    background-color: #2f64f7;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    display: table-cell;
+    margin-left: 40px;
+    vertical-align:middle;
+    height: 50px;
+    padding-left: 20px;
+}
+ul{
+    list-style-type: none;
+    display: table-cell;
+    margin: 0;
+}
+li {
+    display: table-cell;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+li:hover{
+    background-color: #ee7500;
+    transition: 0.3s linear;
+    border: 1px solid #c37802;
+}
+footer{
+    height: 50px;
+    background-color: #2f64f7;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#headerDiv{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
