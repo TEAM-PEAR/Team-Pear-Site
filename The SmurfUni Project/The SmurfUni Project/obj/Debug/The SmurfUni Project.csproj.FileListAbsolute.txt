@@ -1,0 +1,5 @@
+C:\Users\Salih\Desktop\Team-Pear-Site\The SmurfUni Project\The SmurfUni Project\bin\The SmurfUni Project.dll
+C:\Users\Salih\Desktop\Team-Pear-Site\The SmurfUni Project\The SmurfUni Project\bin\The SmurfUni Project.pdb
+C:\Users\Salih\Desktop\Team-Pear-Site\The SmurfUni Project\The SmurfUni Project\obj\Debug\The SmurfUni Project.csprojResolveAssemblyReference.cache
+C:\Users\Salih\Desktop\Team-Pear-Site\The SmurfUni Project\The SmurfUni Project\obj\Debug\The SmurfUni Project.dll
+C:\Users\Salih\Desktop\Team-Pear-Site\The SmurfUni Project\The SmurfUni Project\obj\Debug\The SmurfUni Project.pdb

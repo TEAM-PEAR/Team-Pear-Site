@@ -57,18 +57,91 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about-us.html" />
+    <Content Include="donate.html" />
+    <Content Include="funny-pics.html" />
+    <Content Include="images\2types.jpg" />
+    <Content Include="images\4095198_700b.jpg" />
+    <Content Include="images\4376953_700b.jpg" />
+    <Content Include="images\4926835_700b.jpg" />
+    <Content Include="images\5136232_700b.jpg" />
+    <Content Include="images\5165543_700b.jpg" />
+    <Content Include="images\5960491_700b.jpg" />
+    <Content Include="images\6009224_700b.jpg" />
+    <Content Include="images\633509_700b.jpg" />
+    <Content Include="images\6459213_700b.jpg" />
+    <Content Include="images\6798070_700b.jpg" />
+    <Content Include="images\7056977_700b.jpg" />
+    <Content Include="images\anY8VNq_700b_v3.jpg" />
+    <Content Include="images\aVOX29O_700b.jpg" />
+    <Content Include="images\azbonWm_700b.jpg" />
+    <Content Include="images\code.png" />
+    <Content Include="images\explorer.jpg" />
+    <Content Include="images\hello world.png" />
+    <Content Include="images\jokes 2.txt" />
+    <Content Include="images\jokes.txt" />
+    <Content Include="images\obrazec.jpg" />
+    <Content Include="images\programmers-be-like.jpg" />
+    <Content Include="images\Sentinel 2.0.jpg" />
+    <Content Include="images\tan_lines_of_a_programmer.jpg" />
+    <Content Include="index.html" />
+    <Content Include="jokes.html" />
+    <Content Include="news.html" />
+    <Content Include="templates\fonts\Calviar_cy\Nymphont License.txt" />
+    <Content Include="templates\fonts\randui_cy\czech.png" />
+    <Content Include="templates\fonts\randui_cy\difference.png" />
+    <Content Include="templates\fonts\randui_cy\full-set.png" />
+    <Content Include="templates\fonts\randui_cy\mondrian.png" />
+    <Content Include="templates\fonts\randui_cy\Ronduit-Capitals-Light-License.txt" />
+    <Content Include="templates\fonts\randui_cy\SAMPLE2.png" />
+    <Content Include="templates\fonts\randui_cy\squares.png" />
+    <Content Include="templates\footer.html" />
+    <Content Include="templates\header.html" />
+    <Content Include="templates\HeaderStyle.css">
+      <DependentUpon>HeaderStyle.scss</DependentUpon>
+    </Content>
+    <Content Include="templates\HeaderStyle.min.css">
+      <DependentUpon>HeaderStyle.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\HeaderStyle.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\fonts\randui_cy\RonduitCapitals-Light.otf" />
+    <Content Include="templates\fonts\randui_cy\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\fonts\cynzel\Cinzel-Black.otf" />
+    <Content Include="templates\fonts\cynzel\Cinzel-Bold.otf" />
+    <Content Include="templates\fonts\cynzel\Cinzel-Regular.otf" />
+    <Content Include="templates\fonts\cynzel\CinzelDecorative-Black.otf" />
+    <Content Include="templates\fonts\cynzel\CinzelDecorative-Bold.otf" />
+    <Content Include="templates\fonts\cynzel\CinzelDecorative-Regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\fonts\Calviar_cy\CaviarDreams.ttf" />
+    <Content Include="templates\fonts\Calviar_cy\CaviarDreams_BoldItalic.ttf" />
+    <Content Include="templates\fonts\Calviar_cy\CaviarDreams_Italic.ttf" />
+    <Content Include="templates\fonts\Calviar_cy\Caviar_Dreams_Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\fonts\baron\Baron Neue Black Italic.otf" />
+    <Content Include="templates\fonts\baron\Baron Neue Black.otf" />
+    <Content Include="templates\fonts\baron\Baron Neue Bold Italic.otf" />
+    <Content Include="templates\fonts\baron\Baron Neue Bold.otf" />
+    <Content Include="templates\fonts\baron\Baron Neue Italic.otf" />
+    <Content Include="templates\fonts\baron\Baron Neue.otf" />
+    <Content Include="templates\fonts\baron\Baron_Specimen.pdf" />
+    <Content Include="templates\fonts\baron\FFF_EULA_license.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\HeaderStyle.css.map">
+      <DependentUpon>HeaderStyle.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
