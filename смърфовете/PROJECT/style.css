@@ -23,7 +23,7 @@ body {
 	background-color: #b4c4f0;
 	}
 header{
-    height: 50px;
+    height: 100px;
     background-color: #2f64f7;
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ li:hover{
     border: 1px solid #c37802;
 }
 footer{
-    height: 50px;
+    height: 300px;
     background-color: #2f64f7;
     margin: 0;
     padding: 0;
