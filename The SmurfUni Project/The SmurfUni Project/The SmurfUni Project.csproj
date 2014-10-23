@@ -90,6 +90,12 @@
     <Content Include="index.html" />
     <Content Include="jokes.html" />
     <Content Include="news.html" />
+    <Content Include="style\stylePages.css">
+      <DependentUpon>stylePages.scss</DependentUpon>
+    </Content>
+    <Content Include="style\stylePages.min.css">
+      <DependentUpon>stylePages.css</DependentUpon>
+    </Content>
     <Content Include="templates\fonts\Calviar_cy\Nymphont License.txt" />
     <Content Include="templates\fonts\randui_cy\czech.png" />
     <Content Include="templates\fonts\randui_cy\difference.png" />
@@ -99,6 +105,12 @@
     <Content Include="templates\fonts\randui_cy\SAMPLE2.png" />
     <Content Include="templates\fonts\randui_cy\squares.png" />
     <Content Include="templates\footer.html" />
+    <Content Include="templates\footerStyle.css">
+      <DependentUpon>footerStyle.scss</DependentUpon>
+    </Content>
+    <Content Include="templates\footerStyle.min.css">
+      <DependentUpon>footerStyle.css</DependentUpon>
+    </Content>
     <Content Include="templates\header.html" />
     <Content Include="templates\HeaderStyle.css">
       <DependentUpon>HeaderStyle.scss</DependentUpon>
@@ -141,6 +153,22 @@
   <ItemGroup>
     <Content Include="templates\HeaderStyle.css.map">
       <DependentUpon>HeaderStyle.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\footerStyle.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\footerStyle.css.map">
+      <DependentUpon>footerStyle.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\stylePages.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\stylePages.css.map">
+      <DependentUpon>stylePages.css</DependentUpon>
     </Content>
   </ItemGroup>
   <PropertyGroup>
