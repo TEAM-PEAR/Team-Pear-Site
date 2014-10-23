@@ -1,37 +1,69 @@
-﻿body {
+﻿@font-face {
+    font-family: 'CinzelDecorative-Regular';
+    src: url('fonts/cynzel/CinzelDecorative-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('fonts/Calviar_cy/CaviarDreams.ttf') format('truetype');
+}
+body {
     margin: 0;
     padding: 0;
     header{
-        height: 100px;
-        background-color: #2f64f7;
+        height: 50px;
+        background-color: #1253a4;
         margin: 0;
         padding: 0;
+        width: 100%;
         h1{
+            font-family: CinzelDecorative-Regular;
             margin: 0;
-            display: table-cell;
-            margin-left: 40px;
+            color: #d2dbff;
+            display: inline-block;
             vertical-align:middle;
-            height: 50px;
-            padding-left: 20px;
+            line-height: 50px;
+            margin-left: 1%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
         }
-        ul{
-            list-style-type: none;
-            display: table-cell;
-            margin: 0;
-            li{
-                display: table-cell;
-                width: 100px;
-                height: 50px;
-                font-size: 20px;
-                text-align: center;
-                vertical-align: middle;
-                box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-            }
-            li:hover{
-                background-color: #ee7500;
-                transition: 0.3s linear;
-                border: 1px solid #c37802;
+        h1:hover{
+            color: #1253a4;
+            background-color: #d2dbff;
+            cursor: pointer;
+            transition: 0.3s linear;
+                    -webkit-transition: 0.3s linear;
+        }
+        nav{
+            display: inline-block;
+            width: 80%;
+            vertical-align: middle;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            ul{
+                text-align: right;
+                list-style-type: none;
+                display: inline-block;
+                padding: 0;
+                margin:0;
+                width: 100%;
+                li{
+                    cursor: pointer;
+                    color:white;
+                    font-family: CaviarDreams;
+                    display: inline-block;
+                    min-width: 11%;
+                    line-height: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    vertical-align: middle;
+                    box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                }
+                li:hover{
+                    background-color: #f26964;
+                    transition: 0.3s linear;
+                    -webkit-transition: 0.3s linear;
+                }
             }
         }
     }
