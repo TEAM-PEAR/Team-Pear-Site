@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     header{
+        position: fixed;
         height: 50px;
         background-color: #1253a4;
         margin: 0;
@@ -35,7 +36,7 @@ body {
         }
         nav{
             display: inline-block;
-            width: 80%;
+            float: right;
             vertical-align: middle;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
@@ -45,10 +46,11 @@ body {
                 display: inline-block;
                 padding: 0;
                 margin:0;
-                width: 100%;
+                width: 95%;
                 li{
                     cursor: pointer;
                     color:white;
+                    padding: 0 2%;
                     font-family: CaviarDreams;
                     display: inline-block;
                     min-width: 11%;
