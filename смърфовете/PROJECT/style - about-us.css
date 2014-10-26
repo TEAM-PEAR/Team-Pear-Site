@@ -89,6 +89,7 @@ footer li {
 section{
 	font-size: 1.5em;
 	color: #000000;
+	height: 600px;
 	position: relative;
 }
 
@@ -96,8 +97,10 @@ section img{
 	margin: 40px;
 	display: inline-block;
 }
-
-section p{
+article{
+	position: relative;
+}
+article div{
 	position: absolute;
 	top: 100px;
 	width: 600px;
