@@ -78,8 +78,11 @@
     <Content Include="images\anY8VNq_700b_v3.jpg" />
     <Content Include="images\aVOX29O_700b.jpg" />
     <Content Include="images\azbonWm_700b.jpg" />
+    <Content Include="images\Cabin-icon.png" />
+    <Content Include="images\Clock-icon.png" />
     <Content Include="images\code.png" />
     <Content Include="images\explorer.jpg" />
+    <Content Include="images\Gamepad-icon.png" />
     <Content Include="images\hello world.png" />
     <Content Include="images\jokes 2.txt" />
     <Content Include="images\jokes.txt" />
@@ -90,6 +93,13 @@
     <Content Include="index.html" />
     <Content Include="jokes.html" />
     <Content Include="news.html" />
+    <Content Include="images\smurf-village.jpg" />
+    <Content Include="style\styleIndex.css">
+      <DependentUpon>styleIndex.scss</DependentUpon>
+    </Content>
+    <Content Include="style\styleIndex.min.css">
+      <DependentUpon>styleIndex.css</DependentUpon>
+    </Content>
     <Content Include="style\stylePages.css">
       <DependentUpon>stylePages.scss</DependentUpon>
     </Content>
@@ -169,6 +179,14 @@
   <ItemGroup>
     <Content Include="style\stylePages.css.map">
       <DependentUpon>stylePages.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\styleIndex.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\styleIndex.css.map">
+      <DependentUpon>styleIndex.css</DependentUpon>
     </Content>
   </ItemGroup>
   <PropertyGroup>

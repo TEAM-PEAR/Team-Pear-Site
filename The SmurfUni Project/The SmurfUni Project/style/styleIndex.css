@@ -1,0 +1,61 @@
+﻿@font-face {
+  font-family: 'Caviar_Dreams_Bold';
+  src: url('../templates/fonts/Calviar_cy/Caviar_Dreams_Bold.ttf') format('truetype'); }
+
+body {
+  margin: 70px 0;
+  font-family: Caviar_Dreams_Bold; }
+  body #bigBackground {
+    background-image: url('../images/smurf-village.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0; }
+    body #bigBackground div:first-child {
+      padding: 20px 0;
+      width: 60%;
+      margin: 0 auto;
+      color: white;
+      font-size: 35px; }
+    body #bigBackground div:nth-child(2) {
+      padding: 20px 0 80px 0;
+      width: 60%;
+      margin: 0 auto;
+      color: white;
+      font-size: 20px; }
+    body #bigBackground div:nth-child(3) {
+      word-break: break-all;
+      vertical-align: bottom;
+      margin: 0 auto;
+      color: white;
+      font-size: 20px;
+      border: 3px solid #1253a4;
+      width: 20%;
+      min-width: 15%;
+      line-height: 40px;
+      background-color: rgba(55, 111, 243, 0.27); }
+      body #bigBackground div:nth-child(3):hover {
+        transition: 0.3s all linear;
+        background-color: rgba(55, 111, 243, 0.57);
+        cursor: pointer; }
+  body section {
+    width: 60%;
+    margin: 0 auto; }
+    body section article {
+      margin-top: 50px;
+      vertical-align: top;
+      width: 30%;
+      display: inline-block; }
+      body section article img {
+        float: left;
+        width: 12%; }
+      body section article h1 {
+        font-size: 30px;
+        margin: 0;
+        text-align: left; }
+      body section article p {
+        clear: both;
+        line-height: 30px; }
+
+/*# sourceMappingURL=styleIndex.css.map */

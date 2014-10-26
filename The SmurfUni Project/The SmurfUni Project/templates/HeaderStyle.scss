@@ -37,6 +37,7 @@ body {
         nav{
             display: inline-block;
             float: right;
+            width: 600px;
             vertical-align: middle;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
@@ -45,6 +46,7 @@ body {
                 list-style-type: none;
                 display: inline-block;
                 padding: 0;
+                width: 600px;
                 margin:0;
                 width: 95%;
                 li{
