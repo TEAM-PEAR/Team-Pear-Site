@@ -1,1 +1,1 @@
-﻿{"version":3,"file":"stylePages.css","sources":["stylePages.scss"],"names":[],"mappings":"AAIA,KAAK;EAEG,UAAU;EACV,KAAI;AAGZ,KAAK,SAAS;EAGF,QAAQ;EACR,QAAQ;EACR,SAAS;EACT,eAAe"}
+﻿{"version":3,"file":"stylePages.css","sources":["stylePages.scss"],"names":[],"mappings":"AAIA,KAAK;EAEG,UAAU;EACV,KAAI;AACZ,KAAK;EAPD,OAAO;EACP,QAAQ;EASZ,KAAK,SAAS;IAEF,QAAQ;IACR,QAAQ;IACR,SAAS;IACT,eAAe"}
