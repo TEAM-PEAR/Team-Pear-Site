@@ -64,16 +64,18 @@
     <Content Include="apply.html" />
     <Content Include="funny-pics.html" />
     <Content Include="images\2types.jpg" />
-    <Content Include="images\4376953_700b.jpg" />
     <Content Include="images\5136232_700b.jpg" />
     <Content Include="images\6009224_700b.jpg" />
     <Content Include="images\633509_700b.jpg" />
     <Content Include="images\anY8VNq_700b_v3.jpg" />
+    <Content Include="images\Brainy.png" />
     <Content Include="images\Brainy_Smurf.png" />
     <Content Include="images\Cabin-icon.png" />
     <Content Include="images\Clock-icon.png" />
+    <Content Include="images\clumsy.jpg" />
     <Content Include="images\cov1er.png" />
     <Content Include="images\explorer.jpg" />
+    <Content Include="images\father.jpg" />
     <Content Include="images\Gamepad-icon.png" />
     <Content Include="images\hello world.png" />
     <Content Include="images\indians.png" />
@@ -82,6 +84,8 @@
     <Content Include="images\Kalabaster.jpg" />
     <Content Include="images\Male_Smurf_Comic_Book.jpg" />
     <Content Include="images\punch_drunk_by_gip7-d5uoap7.jpg" />
+    <Content Include="images\smyrfieta.jpg" />
+    <Content Include="images\SmyrfUni.jpg" />
     <Content Include="images\the-smurf-father.jpg" />
     <Content Include="images\_quot_indian_quot__by_tamasaburo89-d1x4mvv.jpg" />
     <Content Include="news.html" />
@@ -92,12 +96,26 @@
     <Content Include="index.html" />
     <Content Include="jokes.html" />
     <Content Include="courses.html" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap-3.2.0-dist\js\bootstrap.js" />
+    <Content Include="bootstrap-3.2.0-dist\js\bootstrap.min.js" />
+    <Content Include="style\images.css">
+      <DependentUpon>images.scss</DependentUpon>
+    </Content>
+    <Content Include="style\images.min.css">
+      <DependentUpon>images.css</DependentUpon>
+    </Content>
     <Content Include="style\newsStyle.css">
       <DependentUpon>newsStyle.scss</DependentUpon>
     </Content>
     <Content Include="style\newsStyle.min.css">
       <DependentUpon>newsStyle.css</DependentUpon>
     </Content>
+    <Content Include="style\style - about-us.css" />
     <Content Include="style\styleForm.css">
       <DependentUpon>styleForm.scss</DependentUpon>
     </Content>
@@ -215,6 +233,21 @@
     <Content Include="style\newsStyle.css.map">
       <DependentUpon>newsStyle.css</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\images.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="style\images.css.map">
+      <DependentUpon>images.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

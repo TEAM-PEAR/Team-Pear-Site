@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Caviar_Dreams_Bold';
+    src: url('../templates/fonts/Calviar_cy/Caviar_Dreams_Bold.ttf') format('truetype');
+}
+body {
+    font-family: Caviar_Dreams_Bold, sans-serif;
+	color: #ffffff;
+	}
+
