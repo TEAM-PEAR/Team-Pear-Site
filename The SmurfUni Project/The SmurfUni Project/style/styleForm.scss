@@ -1,0 +1,86 @@
+﻿@mixin center{
+    width: 80%;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../templates/fonts/Calviar_cy/CaviarDreams.ttf') format('truetype');
+}
+$mainColor: #1253a4;
+body {
+    font-family: CaviarDreams;
+    margin-top: 70px !important;
+    form{
+        display: table;
+        @include center;
+        section{
+            width: 45%;
+            display: table-cell;
+            border: 2px solid $mainColor;
+            vertical-align: top;
+            padding: 10px;
+            h1{
+                margin-bottom: 0;
+                font-size: 25px;
+            }
+            &:nth-child(2){
+                background-color: $mainColor;
+                color: white;
+                label{
+                    padding-bottom: 20px;
+                }
+            }
+            label{
+                display: inline-block;
+                width: 40%;
+                font-weight: bold;
+            }
+            .label{
+                width: 10%;
+            }
+            input[type=tel], input[type=text], input[type=password], input[type=date]{
+                width: 50%;
+                box-sizing: border-box;
+                height: 30px;
+                display: inline-block;
+                vertical-align: top;
+                border: 2px solid $mainColor;
+                border-radius: 5px;
+                margin: 5px 0;
+                vertical-align: middle;
+            }
+            select{
+                vertical-align: top;
+                width: 50%;
+                box-sizing: border-box;
+                height: 30px;
+                display: inline-block;
+                border: 2px solid $mainColor;
+                border-radius: 5px;
+            }
+        } 
+    }
+    div{
+         @include center;
+         line-height: 40px;
+         border: 2px solid $mainColor;
+         width: 25%;
+         min-width: 10%;
+         border-radius: 20px;
+         word-wrap: break-word;
+         text-align: center;
+         margin-top: 30px;
+         font-weight: bold;
+         font-size: 30px;
+         padding: 4px;
+         a{
+             color: black;
+             text-decoration: none;
+         }
+    }
+    div:hover{
+        color: white;
+        background-color: $mainColor;
+        animation: 0.3s all linear;
+    }
+}

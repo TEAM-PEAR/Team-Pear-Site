@@ -3,12 +3,19 @@
 <head>
     <title></title>
     <link href="style/styleIndex.css" rel="stylesheet" />
+    <link href="templates/HeaderStyle.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+    <header class="header"></header>
+    <script>
+        $(".header").load("templates/header.html");
+    </script>
+
     <div id="bigBackground">
         <div>Искате да получите качествено смърфовско образование?</div>
         <div>Нашата мисия е да обучим нашите смърфове да се справят с препятствия като: Java, C#, PHP, JavaScript и още много други черни магии, за които може би не сте и чували!!!</div>
-        <div>Кандидатствай сега!</div>
+        <div><a href="apply.html">Кандидатствай сега!</a></div>
     </div>
     <section>
         <article>
@@ -27,5 +34,9 @@
             <p>Ние гарантираме много безсънни нощи. <!--дафък--></p>
         </article>
     </section>
+    <footer class="footer"></footer>
+    <script>
+        $(".footer").load("templates/footer.html");
+    </script>
 </body>
 </html>

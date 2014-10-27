@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="style/styleForm.css" rel="stylesheet" />
+    <link href="templates/HeaderStyle.css" rel="stylesheet" />
+    <link href="templates/footerStyle.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <header class="header"></header>
+    <script>
+        $(".header").load("templates/header.html");
+    </script>
+    <main>
+        <form method="post">
+            <section id="PersonalInfo">
+                <label for="fullName">Вашето име</label>
+                <input type="text" id="fullName" placeholder="пр. Иван Иванов" /><br />
+                <label for="dateOfBirth">Дата на раждане</label>
+                <input type="date" id="dateOfBirth" /><br />
+                <label for="telephone">Телефон за връзка</label>
+                <input type="tel" id="telephone" placeholder="Телефон за връзка" /><br />
+                <label for="pass">Вашата парола</label>
+                <input type="password" id="pass" placeholder="Парола" /><br />
+                <label for="passAgain">Повторете вашата парола</label>
+                <input type="password" placeholder="Потвърдете парола" />
+                <label for="gander">Вашият пол</label>
+                <select id="gander">
+                    <option>Изберете пол</option>
+                    <option value="man">Мъж</option>
+                    <option value="woman">Жена</option>
+                </select>
+                <label for="agree">Приемам общите условия</label>
+                <input type="checkbox" name="agree" id="agree" />
+            </section>
+            <section id="otherInfo">
+                <label for="prychka">Разполагате ли със собствена магическа пръчка</label>
+                <select id="prychka">
+                    <option value="yes">Да</option>
+                    <option value="no">Не</option>
+                </select>
+                <label for="magic">Прави ли ли сте някога магия</label>
+                <select id="magic">
+                    <option value="yes">Да</option>
+                    <option value="no">Не</option>
+                </select>
+                <label for="vqrnost"><!--дафък-->Ще бъдете ли верен на СмърфУни</label>
+                <select id="vqrnost">
+                    <option value="yes">Да</option>
+                    <option value="no">Не</option>
+                </select>
+            </section>
+        </form>
+        <img src="images/Brainy_Smurf.png" style="float:right" />
+        <div><a href="success.html">Регистрирай ме</a></div>
+    </main>
+</body>
+</html>

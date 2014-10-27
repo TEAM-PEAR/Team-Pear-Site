@@ -8,16 +8,15 @@
 }
 body{
     margin: 0;
-    footer{
-        position: absolute;
-        bottom: 0;
-        left:0;
-        right:0;
+    .footer{
         background-color: #1253a4;
         text-align:center;
+
         section {
             display:inline-block;
             margin: 0 3%;
+            width: 25%;
+            vertical-align: top;
             h2{
                 font-family: Caviar_Dreams_Bold;
                 color: white;
@@ -38,7 +37,6 @@ body{
             }
         }
         div{
-            padding-top: 3%;
             font-family: CaviarDreams;
             color: white;
         }

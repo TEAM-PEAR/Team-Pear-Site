@@ -19,13 +19,20 @@ body {
         h1{
             font-family: CinzelDecorative-Regular;
             margin: 0;
-            color: #d2dbff;
             display: inline-block;
             vertical-align:middle;
             line-height: 50px;
             margin-left: 1%;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
+            a{
+                            color: #d2dbff;
+                text-decoration: none;
+            }
+            a:hover{
+                            color: #1253a4;
+
+               }
         }
         h1:hover{
             color: #1253a4;
@@ -37,7 +44,6 @@ body {
         nav{
             display: inline-block;
             float: right;
-            width: 600px;
             vertical-align: middle;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
@@ -46,12 +52,10 @@ body {
                 list-style-type: none;
                 display: inline-block;
                 padding: 0;
-                width: 600px;
                 margin:0;
-                width: 95%;
+                width: 700px;
                 li{
                     cursor: pointer;
-                    color:white;
                     padding: 0 2%;
                     font-family: CaviarDreams;
                     display: inline-block;
@@ -62,6 +66,10 @@ body {
                     vertical-align: middle;
                     box-sizing: border-box;
                     -webkit-box-sizing: border-box;
+                    a{
+                        color:white;
+                        text-decoration: none;
+                    }
                 }
                 li:hover{
                     background-color: #f26964;

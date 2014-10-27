@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="style/styleForm.css" rel="stylesheet" />
+    <link href="templates/HeaderStyle.css" rel="stylesheet" />
+    <link href="templates/footerStyle.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        @font-face {
+            font-family: 'CaviarDreams';
+            src: url('templates/fonts/Calviar_cy/CaviarDreams.ttf') format('truetype');
+        }
+        p{
+            font-family: CaviarDreams;
+            font-size: 50px;
+            color: blue;
+        }
+        body{
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header"></header>
+    <script>
+        $(".header").load("templates/header.html");
+    </script>
+    <p id="unuccess">Неуспешна регистрация</p>
+</body>
+</html>
