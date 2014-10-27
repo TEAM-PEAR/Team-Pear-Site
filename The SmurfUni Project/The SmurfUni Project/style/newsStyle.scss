@@ -1,0 +1,24 @@
+﻿@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../templates/fonts/Calviar_cy/CaviarDreams.ttf') format('truetype');
+}
+body {
+    font-family: CaviarDreams;
+    margin: 70px 0 0 0;
+    font-size: 20px;
+    section{
+        img{
+            clear:both;
+            width: 20%;
+            float: left;
+                        padding-right: 3%;
+        }
+        div{
+            margin: 60px;
+        }
+
+        clear:both;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
